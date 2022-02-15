@@ -55,7 +55,7 @@ a:link, a:visited {
 	.main-grid {
 		display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-gap: 15px;
+    grid-gap: 0px 15px;
 	}
 }
 
