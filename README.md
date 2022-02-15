@@ -1,3 +1,3 @@
 # notetest_1
-+git & github
-+grid & mediaquery
+1. git & github
+2. grid & mediaquery
