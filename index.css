@@ -23,19 +23,24 @@
   font-size: 17px;
 }
 
-.nav :first-child {
+
+a:link, a:visited {
   text-decoration: none;
+  color: black;
 }
 
 .main-grid {
-  margin-top: 15px;
+
+  padding: 15px;
 }
 
 .main-grid-div {
   width: auto;
   height: 230px;
   background-color: antiquewhite;
-  margin-top: 15px;
+  margin-bottom: 15px;
+  padding: 10px
+
   
 }
 
