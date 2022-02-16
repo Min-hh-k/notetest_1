@@ -1,80 +1,79 @@
 * {
-  margin:0;
+	margin: 0;
 }
 
 .headline {
-  background-color:hotpink;
-  height: 150px;
+	background-color: hotpink;
+	height: 150px;
 }
 
 .headline > div {
-  font-size: 50px;
-  font-weight: 600;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding-top: 35px;
+	font-size: 50px;
+	font-weight: 600;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding-top: 35px;
 }
 
 .nav {
-  display: flex;
-  justify-content: space-around;
-  margin-top: 12px;
-  font-size: 17px;
+	display: flex;
+	justify-content: space-around;
+	margin-top: 12px;
+	font-size: 17px;
 }
 
-
-a:link, a:visited {
-  text-decoration: none;
-  color: black;
+a:link,
+a:visited {
+	text-decoration: none;
+	color: black;
 }
 
 .main-grid {
-
-  padding: 15px;
+	padding: 15px;
 }
 
 .main-grid-div {
-  width: auto;
-  height: 230px;
-  background-color: antiquewhite;
-  margin-bottom: 15px;
-  padding: 10px
-
-  
-}
-
-.main-grid-div-hr {
-  margin: 10px 0px;
-}
-
-
-
-@media screen and (min-width: 600px) {
-
-	.main-grid {
-		display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 0px 15px;
-	}
-}
-
-.main-grid-href{
-  background-color: antiquewhite;
-  width: auto;
-  height: 300px;
-  border: 1px solid black;
-  margin-top: 15px;
-
-}
-
-.main-grid-href > h1 {
-  display: flex;
-  justify-content: center;
-  
+	width: auto;
+	height: 230px;
+	background-color: antiquewhite;
+	margin-bottom: 15px;
+	padding: 10px;
+	border-radius: 10px;
 }
 
 .main-grid-div > h1 {
-  display: flex;
-  justify-content: center;
+	text-align: center;
+	border-bottom: 2px solid black;
+	padding: 5px;
+}
+
+.main-grid-div > p {
+	padding: 5px;
+}
+
+@media screen and (min-width: 600px) {
+	.main-grid {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		grid-gap: 0px 15px;
+	}
+}
+
+.main-grid-href {
+	background-color: antiquewhite;
+	width: auto;
+	height: 300px;
+	border: 1px solid black;
+	margin-top: 15px;
+}
+
+.main-grid-href > h1 {
+	display: flex;
+	justify-content: center;
+}
+
+.main-grid-div > h1 {
+	display: flex;
+	justify-content: center;
 }
